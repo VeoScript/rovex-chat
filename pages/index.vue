@@ -1,6 +1,6 @@
 <template>
   <div class="flex h-screen">
-    <div class="mt-40 sm:mt-12 m-auto ">
+    <div class="mt-38 sm:mt-12 m-auto ">
       <div class="px-12 flex flex-col">
         <div class="flex-shrink-0 flex justify-center">
           <img class="w-72" src="~/assets/img/rovex.png" alt="avatar" />
@@ -30,6 +30,11 @@
             <nuxt-link to="/create-account" @click.prevent class="inline-block text-xs">Create Account</nuxt-link> |
             <nuxt-link to="/forgot-password" @click.prevent class="inline-block text-xs">Forgot Password</nuxt-link>
           </div>
+        </div>
+        <div class="mt-12 text-center">
+          <footer>
+            <p class="text-gray-500 text-xs">© {{ new Date().getFullYear() }} Rovexchat, All rights reserved.</p>
+          </footer>
         </div>
       </div>
     </div>
