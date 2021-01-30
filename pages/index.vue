@@ -1,6 +1,6 @@
 <template>
   <div class="flex h-screen">
-    <div class="mt-38 sm:mt-12 m-auto ">
+    <div class="mt-38 sm:mt-38 m-auto ">
       <div class="px-12 flex flex-col">
         <div class="flex-shrink-0 flex justify-center">
           <img class="w-72" src="~/assets/img/rovex.png" alt="avatar" />
