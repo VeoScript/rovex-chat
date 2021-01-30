@@ -32,9 +32,9 @@
           </div>
         </div>
         <div class="mt-12 text-center">
-          <footer>
+          <div>
             <p class="text-gray-500 text-xs">© {{ new Date().getFullYear() }} Rovexchat, All rights reserved.</p>
-          </footer>
+          </div>
         </div>
       </div>
     </div>
