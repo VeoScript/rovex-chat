@@ -6,7 +6,7 @@
           <img class="w-72" src="~/assets/img/rovex.png" alt="avatar" />
         </div>
         <div class="flex-shrink-0 flex justify-center">
-          <p>Private Conversation</p>
+          <p class="text-xs text-center">Private conversation, find your partner now.</p>
         </div>
         <div class="py-4 mt-2 space-y-2">
           <div class="space-y-2">
@@ -23,6 +23,12 @@
           </div>
           <div class="space-y-2">
             <button class="float-right text-sm bg-yellow-300 pl-5 pr-5 py-2 rounded shadow-inner focus:outline-none hover:bg-gray-900 hover:text-yellow-300">Login</button>
+          </div>
+        </div>
+        <div class="text-center">
+          <div>
+            <nuxt-link to="/create-account" @click.prevent class="inline-block text-xs">Create Account</nuxt-link> |
+            <nuxt-link to="/forgot-password" @click.prevent class="inline-block text-xs">Forgot Password</nuxt-link>
           </div>
         </div>
       </div>
