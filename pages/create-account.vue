@@ -8,8 +8,8 @@
         <div class="flex-shrink-0 flex justify-center">
           <p class="text-xs text-center">Private conversation, find your partner now.</p>
         </div>
-        <div class="mt-10">
-          <p class="text-lg text-left">Create Account</p>
+        <div class="mt-10 flex inline-block">
+          <nuxt-link to="/">Login</nuxt-link>&nbsp;/&nbsp;<p>Create Account</p>
         </div>
         <!-- create account form -->
         <div class="flex justify-center mt-5">
@@ -64,7 +64,7 @@
             </div>
             <div class="col-span-2">
               <div class="space-y-2">
-                <button class="float-right w-full text-sm bg-yellow-300 pl-5 pr-5 py-2 rounded shadow-inner focus:outline-none hover:bg-gray-900 hover:text-yellow-300">Create Account</button>
+                <button class="float-right w-full text-sm text-center text-yellow-300 bg-gray-900 pl-5 pr-5 py-2 rounded shadow-inner focus:outline-none hover:bg-gray-800">Create Account</button>
               </div>
             </div>
           </div>
