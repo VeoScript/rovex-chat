@@ -1,6 +1,6 @@
 <template>
   <div class="flex h-screen">
-    <div class="mt-20 sm:mt-12 m-auto ">
+    <div class="m-auto p-10 sm:p-0 sm:pt-10 sm:pb-10">
       <div class="px-12 flex flex-col">
         <div class="flex-shrink-0 flex justify-center">
           <img class="w-72" src="~/assets/img/rovex.png" alt="avatar" />
@@ -42,6 +42,29 @@
               <div class="space-y-2">
                 <label class="text-xs text-gray-600">Re-enter Password</label>
                 <input type="password" class="text-sm w-full py-2 border border-gray-300 rounded shadow-inner focus:outline-none pl-4 focus:ring-2 focus:ring-yellow-300 transition ease-in-out duration-200 focus:border-gray-100">
+              </div>
+            </div>
+            <div class="col-span-2">
+              <div class="space-y-2">
+                <label class="text-xs text-gray-600">Gender</label>
+                <select class="text-sm w-full py-2 border border-gray-300 rounded shadow-inner focus:outline-none pl-4 focus:ring-2 focus:ring-yellow-300 transition ease-in-out duration-200 focus:border-gray-100">
+                  <option value=""></option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="Bisexual">Bisexual</option>
+                  <option value="Transgender">Transgender</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-span-2">
+              <div class="space-y-2">
+                <label class="text-xs text-gray-600">Birthdate</label>
+                <input type="date" class="text-sm w-full py-2 border border-gray-300 rounded shadow-inner focus:outline-none pl-4 focus:ring-2 focus:ring-yellow-300 transition ease-in-out duration-200 focus:border-gray-100">
+              </div>
+            </div>
+            <div class="col-span-2">
+              <div class="space-y-2">
+                <button class="float-right w-full text-sm bg-yellow-300 pl-5 pr-5 py-2 rounded shadow-inner focus:outline-none hover:bg-gray-900 hover:text-yellow-300">Create Account</button>
               </div>
             </div>
           </div>
