@@ -8,7 +8,7 @@
         <div class="flex-shrink-0 flex justify-center">
           <p class="text-xs text-center">Private conversation, find your partner now.</p>
         </div>
-        <div class="mt-10 flex inline-block">
+        <div class="mt-10 flex">
           <nuxt-link to="/">Login</nuxt-link>&nbsp;/&nbsp;<p>Create Account</p>
         </div>
         <!-- create account form -->
