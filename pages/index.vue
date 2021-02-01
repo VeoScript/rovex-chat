@@ -12,13 +12,13 @@
           <div class="space-y-2">
             <div class="space-y-2">
               <label class="text-sm text-gray-600">Email</label>
-              <input type="text" class="text-sm w-full py-2 border border-gray-300 rounded shadow-inner focus:outline-none pl-4 focus:ring-2 focus:ring-yellow-300 transition ease-in-out duration-200 focus:border-gray-100">
+              <input type="text" class="text-sm w-full py-2 border border-gray-300 rounded shadow-inner focus:outline-none pl-4 focus:ring-2 focus:ring-yellow-300 focus:border-gray-100">
             </div>
           </div>
           <div class="space-y-2">
             <div class="space-y-2">
               <label class="text-sm text-gray-600">Password</label>
-              <input type="password" class="text-sm w-full py-2 border border-gray-300 rounded shadow-inner focus:outline-none pl-4 focus:ring-2 focus:ring-yellow-300 transition ease-in-out duration-200 focus:border-gray-100">
+              <input type="password" class="text-sm w-full py-2 border border-gray-300 rounded shadow-inner focus:outline-none pl-4 focus:ring-2 focus:ring-yellow-300 focus:border-gray-100">
             </div>
           </div>
           <div class="space-y-2">
@@ -45,7 +45,7 @@
 export default {
   methods: {
     onLogin () {
-      this.$router.push('home')
+      this.$router.push('chatroom')
     }
   }
 }
