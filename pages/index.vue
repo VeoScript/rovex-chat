@@ -22,7 +22,7 @@
             </div>
           </div>
           <div class="space-y-2">
-            <button class="float-right text-sm text-yellow-300 bg-gray-900 pl-5 pr-5 py-2 rounded shadow-inner focus:outline-none hover:bg-yellow-300 hover:text-gray-900">Login</button>
+            <button @click.prevent="onLogin" class="float-right text-sm text-yellow-300 bg-gray-900 pl-5 pr-5 py-2 rounded shadow-inner focus:outline-none hover:bg-yellow-300 hover:text-gray-900">Login</button>
           </div>
         </div>
         <div class="text-center">
@@ -42,5 +42,11 @@
 </template>
 
 <script>
-export default {}
+export default {
+  methods: {
+    onLogin () {
+      this.$router.push('home')
+    }
+  }
+}
 </script>
